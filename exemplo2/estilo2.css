@@ -1,0 +1,17 @@
+.caixa {
+    box-sizing: border-box;
+    width: 70%;
+    max-width: 650px;
+    margin: 40px auto;
+    padding: 40px;
+    background-color: #bbf7d0;
+    border: 2px;
+}
+
+@media (max-width: 650px) {
+    .caixa {
+        width: 95%;
+        padding: 15;
+        background-color: #fde68a;
+    }
+}

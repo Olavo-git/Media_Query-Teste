@@ -1,0 +1,16 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #fef3c7;
+    text-align: center;
+    padding: 30px;
+}
+h1 {
+    color: #92400e;
+    font-size: 36px;
+}
+
+@media (max-width: 600px) {
+    body {
+        background-color: #15c16b;
+    }
+}
